@@ -1,7 +1,7 @@
 cask "cine" do
   arch arm: "aarch64", intel: "x64"
-  version "0.1.5"
-  sha256 arm: "586c82a354802c2aabc66be65d09c59186b0930f209c5e91f5fa30b59e2ca8c3", intel: "598f5a352758eb98f325a586c17c5f6abbc99f10e603925629546ef4fcf9615e"
+  version "0.1.7"
+  sha256 arm: "2c17e6dd1ef54152498dae9116b18b941d5b6ee0f814b0a11d2d4f76e1da2d89", intel: "1a87210ddaaec8dbb6fa9e9eaa46be4d272b3d75522fd2624f99a2d96ede3c41"
 
   url "https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v#{version}/Cine_#{version}_#{arch}.dmg"
   name "Cine"

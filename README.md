@@ -64,13 +64,13 @@ Pay with Razorpay (UPI, cards, net banking) in Settings → Plan & licence, or t
 ## Install
 | | |
 |---|---|
-| macOS (Apple silicon) | [Cine_0.1.10_aarch64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.10/Cine_0.1.10_aarch64.dmg) |
-| macOS (Intel) | [Cine_0.1.10_x64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.10/Cine_0.1.10_x64.dmg) |
+| macOS (Apple silicon) | [Cine_0.1.11_aarch64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.11/Cine_0.1.11_aarch64.dmg) |
+| macOS (Intel) | [Cine_0.1.11_x64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.11/Cine_0.1.11_x64.dmg) |
 | Windows, Linux | on the [release page](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/latest) |
 
 ```sh
 # macOS, one line
-curl -fsSL https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.10/Cine_0.1.10_$(uname -m | sed -e s/arm64/aarch64/ -e s/x86_64/x64/).dmg -o /tmp/Cine.dmg && hdiutil attach -quiet /tmp/Cine.dmg && cp -R /Volumes/Cine/Cine.app /Applications/ && hdiutil detach -quiet /Volumes/Cine && xattr -cr /Applications/Cine.app
+curl -fsSL https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.11/Cine_0.1.11_$(uname -m | sed -e s/arm64/aarch64/ -e s/x86_64/x64/).dmg -o /tmp/Cine.dmg && hdiutil attach -quiet /tmp/Cine.dmg && cp -R /Volumes/Cine/Cine.app /Applications/ && hdiutil detach -quiet /Volumes/Cine && xattr -cr /Applications/Cine.app
 ```
 
 ```sh

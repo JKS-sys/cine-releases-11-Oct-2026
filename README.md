@@ -41,7 +41,7 @@ By Jagadeesh Kumar S, creator — [youtube.com/@JKS-sys](https://www.youtube.com
 - **Recorder** — save a clip (MP4, MOV, GIF, M4A, MP3), with a 9:16 crop for Shorts and Reels.
 - **Bilingual subtitles** — a second subtitle track, or an AI translation from a local model (Ollama, LM Studio) or any OpenAI-compatible service.
 - **Trakt** — scrobbles movies and episodes as you watch.
-- **User scripts** — automate the player with JavaScript using IINA's `iina` API.
+- **User scripts** — automate the player with JavaScript through the built-in `cine` scripting API.
 - **VR → 2D** — 180°/360°, side-by-side or over-under, equirectangular, fisheye or cubemap, flattened so you can look around with the mouse.
 - **File info for every file** — resolution class (SD to 8K), HDR10 / HLG / Dolby Vision, codec, bit depth, frame rate, bit rates, audio layout, sample rate, lossless / Hi-Res, and a plain-words grade for picture and sound — for the playing file and every file in the playlist.
 - **Repeat modes** — off, this file, the whole playlist, or **play one file once, then stop** even with more files queued.
@@ -64,13 +64,13 @@ Pay with Razorpay (UPI, cards, net banking) in Settings → Plan & licence, or t
 ## Install
 | | |
 |---|---|
-| macOS (Apple silicon) | [Cine_0.1.5_aarch64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.5/Cine_0.1.5_aarch64.dmg) |
-| macOS (Intel) | [Cine_0.1.5_x64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.5/Cine_0.1.5_x64.dmg) |
+| macOS (Apple silicon) | [Cine_0.1.7_aarch64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.7/Cine_0.1.7_aarch64.dmg) |
+| macOS (Intel) | [Cine_0.1.7_x64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.7/Cine_0.1.7_x64.dmg) |
 | Windows, Linux | on the [release page](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/latest) |
 
 ```sh
 # macOS, one line
-curl -fsSL https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.5/Cine_0.1.5_$(uname -m | sed -e s/arm64/aarch64/ -e s/x86_64/x64/).dmg -o /tmp/Cine.dmg && hdiutil attach -quiet /tmp/Cine.dmg && cp -R /Volumes/Cine/Cine.app /Applications/ && hdiutil detach -quiet /Volumes/Cine && xattr -cr /Applications/Cine.app
+curl -fsSL https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.7/Cine_0.1.7_$(uname -m | sed -e s/arm64/aarch64/ -e s/x86_64/x64/).dmg -o /tmp/Cine.dmg && hdiutil attach -quiet /tmp/Cine.dmg && cp -R /Volumes/Cine/Cine.app /Applications/ && hdiutil detach -quiet /Volumes/Cine && xattr -cr /Applications/Cine.app
 ```
 
 ```sh

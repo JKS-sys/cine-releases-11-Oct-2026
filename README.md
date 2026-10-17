@@ -15,6 +15,8 @@
 **A tiny media player (under 5 MB) that plays almost anything and remembers every setting.**
 By Jagadeesh Kumar S, creator — [youtube.com/@JKS-sys](https://www.youtube.com/@JKS-sys) · [ipconfig.co.network/cine](https://ipconfig.co.network/cine)
 
+> **If Cine helps you, please ⭐ star this repository — it helps other people find it.**
+
 <p align="center">
   <img src="docs/icon-light.png" alt="Light icon" width="72"> &nbsp; <img src="docs/icon-dark.png" alt="Dark icon" width="72"><br>
   <sub>Light icon · dark icon</sub>
@@ -121,3 +123,7 @@ For the widest format support also install ffmpeg: `brew install ffmpeg` · `win
 See the [releases](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases).
 
 © Jagadeesh Kumar S. All rights reserved.
+
+---
+
+> **If Cine helps you, please ⭐ star this repository — it helps other people find it.**

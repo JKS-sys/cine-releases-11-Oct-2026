@@ -100,16 +100,16 @@ Pay with Razorpay (UPI, cards, net banking) in Settings → Plan & licence, or t
 ## Install
 | | |
 |---|---|
-| macOS (Apple silicon) | [Cine_0.1.16_aarch64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.16/Cine_0.1.16_aarch64.dmg) |
-| macOS (Intel) | [Cine_0.1.16_x64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.16/Cine_0.1.16_x64.dmg) |
-| Windows (x64 or ARM) | `Cine_0.1.16_x64-setup.exe` / `Cine_0.1.16_arm64-setup.exe` (or the .msi) on the [release page](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/latest) |
+| macOS (Apple silicon) | [Cine_0.1.17_aarch64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.17/Cine_0.1.17_aarch64.dmg) |
+| macOS (Intel) | [Cine_0.1.17_x64.dmg](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.17/Cine_0.1.17_x64.dmg) |
+| Windows (x64 or ARM) | `Cine_0.1.17_x64-setup.exe` / `Cine_0.1.17_arm64-setup.exe` (or the .msi) on the [release page](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/latest) |
 | Linux (x64 or ARM) | `.deb`, `.rpm` or `.AppImage` on the [release page](https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/latest) |
 | ChromeOS | turn on *Linux development environment* in Settings, then open the Linux `.deb` (x64 or ARM) from Files |
-| FreeBSD (amd64) | `Cine_0.1.16_freebsd_amd64.tar.gz` — needs `pkg install webkit2-gtk3 ffmpeg` |
+| FreeBSD (amd64) | `Cine_0.1.17_freebsd_amd64.tar.gz` — needs `pkg install webkit2-gtk3 ffmpeg` |
 
 ```sh
 # macOS, one line
-curl -fsSL https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.16/Cine_0.1.16_$(uname -m | sed -e s/arm64/aarch64/ -e s/x86_64/x64/).dmg -o /tmp/Cine.dmg && hdiutil attach -quiet /tmp/Cine.dmg && cp -R /Volumes/Cine/Cine.app /Applications/ && hdiutil detach -quiet /Volumes/Cine && xattr -cr /Applications/Cine.app
+curl -fsSL https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases/download/v0.1.17/Cine_0.1.17_$(uname -m | sed -e s/arm64/aarch64/ -e s/x86_64/x64/).dmg -o /tmp/Cine.dmg && hdiutil attach -quiet /tmp/Cine.dmg && cp -R /Volumes/Cine/Cine.app /Applications/ && hdiutil detach -quiet /Volumes/Cine && xattr -cr /Applications/Cine.app
 ```
 
 ```sh
